@@ -681,4 +681,38 @@ nav a:hover::after{
         padding: 14px 0;
     }
 
+}@media (max-width:768px){
+
+    .hero{
+        flex-direction: column;
+        padding: 120px 20px 60px;
+    }
+
+    .hero-text,
+    .hero-image{
+        width:100%;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .hero h2{
+        font-size:26px;
+    }
+
+    .hero-image img{
+        width:260px;
+        margin-top:30px;
+    }
+
+    .products{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+        max-width:340px;
+    }
 }
