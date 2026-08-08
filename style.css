@@ -734,4 +734,27 @@ nav a:hover::after{
     font-size:14px;
     margin-top:5px;
     color:#d4af37;
+}.price{
+    margin:15px 0;
+}
+
+.price del{
+    color:#888;
+    margin-right:10px;
+}
+
+.price strong{
+    color:#d4af37;
+    font-size:22px;
+}
+
+.sale-tag{
+    display:inline-block;
+    background:#075e2d;
+    color:white;
+    padding:6px 12px;
+    font-size:12px;
+    letter-spacing:1px;
+    border-radius:20px;
+    margin-bottom:15px;
 }
