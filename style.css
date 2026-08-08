@@ -778,4 +778,45 @@ nav a:hover::after{
 .hero-price strong{
     color:#d4af37;
     font-size:28px;
+}/* 14 August Sale Polish */
+
+.hero-sale{
+    display:inline-block;
+    color:#d4af37;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+.hero-price{
+    margin:18px 0 22px;
+}
+
+.hero-price del{
+    color:#888;
+    font-size:18px;
+    margin-right:12px;
+}
+
+.hero-price strong{
+    color:#d4af37;
+    font-size:28px;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .hero-sale{
+        font-size:11px;
+        letter-spacing:2px;
+    }
+
+    .hero-price strong{
+        font-size:24px;
+    }
+
+    .hero-price del{
+        font-size:16px;
+    }
 }
