@@ -757,4 +757,25 @@ nav a:hover::after{
     letter-spacing:1px;
     border-radius:20px;
     margin-bottom:15px;
+}.hero-sale{
+    display:inline-block;
+    color:#d4af37;
+    font-size:14px;
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+.hero-price{
+    margin-top:20px;
+}
+
+.hero-price del{
+    color:#888;
+    font-size:18px;
+    margin-right:12px;
+}
+
+.hero-price strong{
+    color:#d4af37;
+    font-size:28px;
 }
